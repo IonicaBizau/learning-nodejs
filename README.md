@@ -1,4 +1,4 @@
-NodeJS-Beginner-projects
+NodeJS Beginner Projects
 ========================
 
 Learning NodeJS
