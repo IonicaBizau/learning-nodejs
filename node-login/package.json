@@ -1,0 +1,12 @@
+{
+    "name": "node-login",
+    "version": "0.0.1",
+    "dependencies": {
+        "node-static": "*",
+        "mongodb": "*",
+        "request": "*",
+        "asyncjs": ">=0.0.5",
+        "oauth": ">=0.9.0",
+        "bitbucket-api": "*"
+    }
+}

@@ -1,0 +1,115 @@
+<html>
+<head>
+    <title>Your profile</title>
+    <link href="http://twitter.github.com/bootstrap/assets/css/bootstrap.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" type="text/javascript"></script>   
+    
+    <link href="editable/libs/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <script src="editable/libs/bootstrap/js/bootstrap.js"></script>
+    
+    <link href="editable/css/bootstrap-editable.css" rel="stylesheet">
+    <script src="editable/js/bootstrap-editable.js"></script>
+    
+    <script src="js/client.js" type="text/javascript"></script>
+</head>
+<body>
+    <div class="loading">
+        <h2>Wait, please...</h2><br />
+        <img src="img/spinner.gif" style="width: 80px; height: 80px;">
+    </div>
+    
+    <div class="container">
+        <div id="success">
+            <h1 class="page-header">Hi again!</h1>
+            <div class="row">
+                
+                <div class="span2" align="center">
+                    <img id="avatar" class="thumbnail" src="">
+                    
+                    <a href="/logout">
+                        <input type="button" class="btn btn-large btn-warning" value="Logout" />
+                    </a>
+                    
+                    
+                </div>
+                
+                <div class="span10">
+                    <div class="well" id="information">
+                        <div class="template">
+	                        <h2 data-type="" class="type page-header"> </h2>
+	                        <div class="row">
+	                            <div class="span3">
+	                                <h3>Username: </h3>
+	                                <h3>Email address: </h3>
+	                                <h3>Public repos: </h3>
+	                                <h3>Latest login: </h3>
+	                                <h3>Account created: </h3>
+	                            </div>
+	                            <div class="span6">
+	                                <h3><span class="username"> </span></h3>
+	                                <h3><span class="email"> </span></h3>
+	                                <h3><span class="repos"> </span></h3>
+	                                <h3><span class="latest-login"> </span></h3>
+	                                <h3><span class="account-created"> </span></h3>
+	                                <a class="revoke-link" target="_blank" href="">
+	                                	<button class="btn-revoke btn btn-danger">Revoke access</button>
+	                                </a>
+	                            </div>
+	                        </div>
+                        </div>
+                        
+                        <h1 class="page-header">Your address</h1>
+                        <table class="table table-bordered">
+                            <tbody>
+                                <tr>
+                                    <td>Street</td>
+                                    <td>
+                                        <a href="#_">
+                                            <span data-name="street" class="street edit"> </span>
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>ZIP</td>
+                                    <td>
+                                        <a href="#_">
+                                            <span data-name="zip" class="zip edit"> </span>    
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Location</td>
+                                    <td>
+                                        <a href="#_">
+                                            <span data-name="location" class="location edit"> </span>
+                                        </a>
+                                    </td>
+                                </tr>
+                          </tbody>
+                        </table>
+                        
+                        <a href="/delete">
+                            <input type="button" class="btn btn-danger" value="Delete account" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div id="error">
+            <h1 class="page-header">Error...</h1>
+            <h2 class="message"> </h2>
+            
+            <a href="/login/github">
+                <input type="button" class="btn btn-large btn-primary" value="Login with Github" />
+            </a>
+    
+            <a href="/login/bitbucket">
+                <input type="button" class="btn btn-large btn-primary" value="Login with Bitbucket" />
+            </a>
+        </div>
+    </div>
+</body>
+</html>

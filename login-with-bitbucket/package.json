@@ -1,0 +1,7 @@
+{
+    "name" : "login-with-bitbucket",
+    "dependencies": {
+        "asyncjs": ">=0.0.5",
+        "oauth": ">=0.9.0"
+    }
+}

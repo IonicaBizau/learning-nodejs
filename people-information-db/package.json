@@ -1,0 +1,8 @@
+{
+    "name": "PeopleInformation",
+    "version": "0.0.1",
+    "dependencies": {
+        "mongodb": "*",
+        "formidable" : "*"
+    }
+}

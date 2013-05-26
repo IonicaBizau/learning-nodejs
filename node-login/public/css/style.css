@@ -1,0 +1,21 @@
+.loading {
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+    text-align: center;
+    background: #ffffff;
+    z-index: 1000;
+    position: absolute;
+}
+
+#avatar {
+    margin-bottom: 10px;
+}
+
+.template {
+	display: none;
+}
+
+.btn {
+    margin-right: 10px;
+}

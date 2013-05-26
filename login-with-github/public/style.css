@@ -1,0 +1,43 @@
+body {
+    font-family: Ubuntu, Arial;
+}
+
+h1 {
+    color: red;
+    font-family: Ubuntu, Arial;
+}
+
+img {
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0 0 5px black;
+}
+
+input[type="button"], button {
+    background: none repeat scroll 0 0 white;
+    border: 2px solid black;
+    border-radius: 10px 10px 10px 10px;
+    height: 46px;
+    width: 158px;
+    margin-top: 10px;
+}
+
+input[type="text"], textarea {
+    border: 2px solid black;
+    border-radius: 10px 10px 10px 10px;
+    font-size: 20px;
+    height: 46px;
+    margin-top: 10px;
+    padding: 10px;
+    text-align: center;
+    width: 400px;
+}
+
+li {
+    font-size: 20px;
+    margin-right: 5px
+}
+
+.removeButton {
+    margin-left: 10px;
+}
+

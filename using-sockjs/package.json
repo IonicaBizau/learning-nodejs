@@ -1,0 +1,10 @@
+{
+  "name": "UsingSockjs",
+  "version": "0.0.1",
+  "author": "Ionica Bizau",
+  "license": "BSD",
+  "dependencies": {
+        "node-static": "*",
+        "sockjs": "*"
+  }
+}
