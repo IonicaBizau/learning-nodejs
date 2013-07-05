@@ -1,0 +1,18 @@
+{
+    "name": "cheerio_test",
+    "version": "0.0.0",
+    "description": "Test cheerio Node module.",
+    "main": "main.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/IonicaBizau/NodeJS-Beginner-Projects"
+    },
+    "dependencies": {
+        "cheerio": "*"
+    },
+    "author": "IonicaBizau",
+    "license": "BSD",
+    "bugs": {
+        "url": "https://github.com/IonicaBizau/NodeJS-Beginner-Projects/issues"
+    }
+}
