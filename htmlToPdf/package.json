@@ -1,0 +1,11 @@
+{
+    "name": "htmlToPdf",
+    "version": "0.0.0",
+    "description": "Converts a HTML page to PDF document.",
+    "main": "main.js",
+    "author": "Ionică Bizău <bizauionica@gmail.com>",
+    "dependencies": {
+       "pdfcrowd": "*"
+    },
+    "license": "BSD"
+}
