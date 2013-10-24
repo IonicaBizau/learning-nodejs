@@ -1,0 +1,7 @@
+{
+  "name": "web-sockets",
+  "dependencies": {
+    "johnnys-node-static": "*",
+    "socket.io": "*"
+  }
+}
