@@ -1,6 +1,7 @@
 var npm = require("npm");
 npm.load({
-    loaded: false
+    loaded: false,
+    prefix: "./tests/node_modules"
 }, function (err) {
   // catch errors
   npm.commands.install(createNpmDependenciesArray('./tests/package'), function (er, data) {
