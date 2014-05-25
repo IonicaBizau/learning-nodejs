@@ -11,3 +11,10 @@ $ cd hbj
 $ npm install
 $ npm test
 ```
+
+## Demo
+
+> [![](http://i.imgur.com/r5PUDNM.png)](https://asciinema.org/a/9104)
+
+## License
+See the LICENSE file.
