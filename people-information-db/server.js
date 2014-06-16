@@ -3,7 +3,6 @@ var mongo = require("mongodb");
 var formidable = require("formidable");
 var html = require("./html.js");
 
-
 // Mongo server
 var server = mongo.Server("127.0.0.1", 27017);
 var db = new mongo.Db('peopleInformationDb', server, { safe: true });
@@ -33,7 +32,7 @@ var srv = http.createServer(function(req, res){
         if(req.url == "/add"){
             res.end(html.createForm());
         }
-        
+
         // Edit data page
         if(req.url.indexOf("edit?id=") !== -1){
             extractEditId(req.url, function(id){
@@ -47,16 +46,16 @@ var srv = http.createServer(function(req, res){
                     else{
                         res.end("An error ocured.");
                     }
-		        });
+                });
             });
         }
-        
+
         // Delete data page
         if(req.url.indexOf("delete?id=") !== -1){
             extractEditId(req.url, function(id){
                 collection.findOne({"_id" : mongo.ObjectID(id)}, function(err, item) {
                     if(err) return res.end("An error ocured.");
-                    
+
                     // Correct id
                     if(item){
                         res.end(html.createDeleteForm(item));
@@ -65,10 +64,10 @@ var srv = http.createServer(function(req, res){
                     else{
                         res.end("An error ocured.");
                     }
-    	        });
+                });
             });
         }
-        
+
         // Default page
         var items = null;
         collection.find().toArray(function(err, docs) {
@@ -82,7 +81,7 @@ var srv = http.createServer(function(req, res){
         if(req.url === "/add"){
             var form = new formidable.IncomingForm();
             var fields = null;
-                
+
             form.parse(req, function(err, fields) {
                 var objectToInsert = {
                 "firstName" : fields.firstName,
@@ -90,18 +89,18 @@ var srv = http.createServer(function(req, res){
                 "age" : fields.age,
                 "gender" : fields.gender,
                 };
-                        
+
                 collection.insert(objectToInsert, function(){
                     res.end(html.createThankYouMessage());
                 });
             });
         }
-        
+
         // Data edited
         if(req.url.indexOf("edit?id=") !== -1){
             var form = new formidable.IncomingForm();
             var fields = null;
-                
+
             form.parse(req, function(err, fields) {
                 var objectToEdit = {
                     $set: {
@@ -111,7 +110,7 @@ var srv = http.createServer(function(req, res){
                         "gender" : fields.gender
                     }
                 };
-                
+
                 extractEditId(req.url, function(id){
                     collection.update({"_id":mongo.ObjectID(id)}, objectToEdit, function(){
                         res.end(html.createThankYouMessage());
@@ -119,11 +118,11 @@ var srv = http.createServer(function(req, res){
                 });
             });
         }
-        
+
         // Data deleted
         if(req.url.indexOf("delete?id=") !== -1){
             var form = new formidable.IncomingForm();
-                    
+
             extractEditId(req.url, function(id){
                 collection.remove({"_id":mongo.ObjectID(id)}, function(){
                     res.end(html.createThankYouMessage());
