@@ -1,19 +1,42 @@
 // Dependnecies
 var Geocoder = require("node-geocoder").getGeocoder("google");
-var myLocation = "New York";
 
-// Get location
-Geocoder.geocode({
-    address: myLocation
-}, function(err, guess) {
-    if (err) { throw err; }
+/**
+ * AddressToGeocode
+ * Converts a string representing an address to geocode data.
+ *
+ * @name AddressToGeocode
+ * @function
+ * @param {String} address The searched location
+ * @param {Function} callback The callback function
+ * @return {Object} AddressToGeocode function
+ */
+var AddressToGeocode = function (address, callback) {
+    Geocoder.geocode({
+        address: address
+    }, function(err, guess) {
+        if (err) { return callback(err); }
+        callback(null, AddressToGeocode.handleLocation(guess));
+    });
+    return AddressToGeocode;
+};
+
+/**
+ * handleLocation
+ *
+ * @name handleLocation
+ * @function
+ * @param {Array} guess Locations returned by Geocoder
+ * @return {Object} An object containing `lat` and `lng` fields.
+ */
+AddressToGeocode.handleLocation = function (guess) {
     if (!guess || !guess.length) {
-        return console.error("No location found");
+        return {};
     }
+    return {
+        lat: guess[0].latitude,
+        lng: guess[0].longitude
+    };
+};
 
-    console.log(myLocation + ": (" + guess[0].latitude + ", " + guess[0].longitude + ")");
-    console.log("----");
-    console.log("Results:", guess);
-});
-
-
+module.exports =  AddressToGeocode;
