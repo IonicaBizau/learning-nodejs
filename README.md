@@ -10,6 +10,44 @@ $ cd address-to-geocode
 $ npm install
 ```
 
+## Example
+
+```js
+// My Location
+var myLocation = "New York";
+
+// Handler to output data
+var handler = function (err, location) {
+    if (err) { throw err; }
+    console.log(location);
+};
+
+require("../index")
+    (myLocation, handler)
+    ("Paris", handler)
+  ;
+```
+
+## Documentation
+### `AddressToGeocode(address, callback)`
+Converts a string representing an address to geocode data.
+
+#### Params:
+* **String** *address* The searched location
+* **Function** *callback* The callback function
+
+#### Return:
+* **Object** AddressToGeocode function
+
+### `AddressToGeocode.handleLocation(guess)`
+A function that handles the location. This can be overriden creating your own handler.
+
+#### Params:
+* **Array** *guess* Locations returned by Geocoder
+
+#### Return:
+* **Object** An object containing `lat` and `lng` fields.
+
 ## How to contribute
 
 1. File an issue in the repository, using the bug tracker, describing the
