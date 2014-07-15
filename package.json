@@ -15,6 +15,9 @@
     "node",
     "location"
   ],
+  "dependencies": {
+      "node-geocoder": "2.6.0"
+  },
   "author": "jillix <contact@jillix.com>",
   "license": "MIT",
   "bugs": {
