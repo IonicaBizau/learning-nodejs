@@ -1,0 +1,25 @@
+{
+  "name": "testing-streams",
+  "version": "0.0.0",
+  "description": "A project to test write streams.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:IonicaBizau/testing-streams.git"
+  },
+  "keywords": [
+    "streams",
+    "write",
+    "node",
+    "log"
+  ],
+  "author": "Ionică Bizău <bizauionica@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IonicaBizau/testing-streams/issues"
+  },
+  "homepage": "https://github.com/IonicaBizau/testing-streams"
+}
