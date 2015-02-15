@@ -11,6 +11,7 @@ JohnnysStatic.setRoutes({ "/": { "url": "/html/index.html" } });
 
 // create http server
 var server = http.createServer(function(req, res) {
+    console.log(">>>");
     // safe serve
     if (JohnnysStatic.exists(req, res)) {
         // serve file
@@ -52,8 +53,8 @@ setInterval(sendTime, 10000);
 
 // Emit welcome message on connection
 io.sockets.on('connection', function(socket) {
+    console.log(">>>> Welcome");
     socket.emit('welcome', { message: 'Welcome!' });
-
     socket.on('i am client', console.log);
 });
 
