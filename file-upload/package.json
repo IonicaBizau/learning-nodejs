@@ -1,0 +1,29 @@
+{
+  "name": "learning-nodejs-file-upload",
+  "version": "1.0.0",
+  "description": "Learning how file uploads work in a NodeJS server.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:IonicaBizau/learning-nodejs.git"
+  },
+  "keywords": [
+    "file",
+    "upload",
+    "nodejs"
+  ],
+  "author": "Ionică Bizău <bizauionica@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IonicaBizau/learning-nodejs/issues"
+  },
+  "homepage": "https://github.com/IonicaBizau/learning-nodejs",
+  "dependencies": {
+    "formidable": "^1.0.17",
+    "lien": "^0.0.8"
+  },
+  "devDependencies": {}
+}

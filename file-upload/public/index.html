@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>File upload</title>
+    </head>
+    <body>
+        <form action="/upload" method="post" enctype="multipart/form-data">
+            <input name="file" type="file">
+            <button>Submit</button>
+        </form>
+        <iframe src="/upload/list" frameborder="0"></iframe>
+    </body>
+</html>
