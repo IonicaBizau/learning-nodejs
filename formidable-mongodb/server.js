@@ -23,10 +23,10 @@ var srv = http.createServer(function(req, res){
         });
 
         db.open(function(err, db) {
-            if (err) return res.end("A problem ocured. Try again later.");
+            if (err) return res.end("A problem occurred. Try again later.");
 
             db.collection("col_one", function(err, myCol) {
-                if (err) return res.end("A problem ocured. Try again later.");
+                if (err) return res.end("A problem occurred. Try again later.");
 
                 var objectToInsert = {
                     "firstName" : fieldsInformation.firstName,
