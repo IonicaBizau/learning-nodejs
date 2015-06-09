@@ -37,14 +37,14 @@ var srv = http.createServer(function(req, res){
         if(req.url.indexOf("edit?id=") !== -1){
             extractEditId(req.url, function(id){
                 collection.findOne({"_id" : mongo.ObjectID(id)}, function(err, item) {
-                    if(err) return res.end("An error ocured.");
+                    if(err) return res.end("An error occurred.");
                     // Correct id
                     if(item){
                         res.end(html.createForm(item));
                     }
                     // Wrong id
                     else{
-                        res.end("An error ocured.");
+                        res.end("An error occurred.");
                     }
                 });
             });
@@ -54,7 +54,7 @@ var srv = http.createServer(function(req, res){
         if(req.url.indexOf("delete?id=") !== -1){
             extractEditId(req.url, function(id){
                 collection.findOne({"_id" : mongo.ObjectID(id)}, function(err, item) {
-                    if(err) return res.end("An error ocured.");
+                    if(err) return res.end("An error occurred.");
 
                     // Correct id
                     if(item){
@@ -62,7 +62,7 @@ var srv = http.createServer(function(req, res){
                     }
                     // Wrong id
                     else{
-                        res.end("An error ocured.");
+                        res.end("An error occurred.");
                     }
                 });
             });

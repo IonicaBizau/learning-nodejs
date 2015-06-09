@@ -13,7 +13,7 @@ function requestHandler(request,response) {
          
         if (err) {
             response.statusCode = 500;
-            response.end("A problem ocured." + "\n" + JSON.stringify(err));
+            response.end("A problem occurred." + "\n" + JSON.stringify(err));
             return;
         }
 
