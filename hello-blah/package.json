@@ -1,0 +1,15 @@
+{
+  "name": "blah-test",
+  "version": "1.0.0",
+  "description": "Testing the new version of blah.",
+  "main": "lib/index.js",
+  "directories": {
+    "example": "example",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
+  "license": "KINDLY"
+}
