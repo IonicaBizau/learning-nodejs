@@ -1,18 +1,30 @@
 {
-    "name": "cheerio_test",
-    "version": "0.0.0",
-    "description": "Test cheerio Node module.",
-    "main": "main.js",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/IonicaBizau/NodeJS-Beginner-Projects"
-    },
-    "dependencies": {
-        "cheerio": "*"
-    },
-    "author": "IonicaBizau",
-    "license": "BSD",
-    "bugs": {
-        "url": "https://github.com/IonicaBizau/NodeJS-Beginner-Projects/issues"
-    }
+  "name": "learning-node-cheerio-test",
+  "dependencies": {
+    "cheerio": "^0.19.0"
+  },
+  "description": "Cheerio =======",
+  "version": "1.0.0",
+  "main": "main.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/IonicaBizau/learning-nodejs.git"
+  },
+  "keywords": [
+    "learning",
+    "nodejs",
+    "cheerio",
+    "dom",
+    "manipultation"
+  ],
+  "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IonicaBizau/learning-nodejs/issues"
+  },
+  "homepage": "https://github.com/IonicaBizau/learning-nodejs#readme"
 }

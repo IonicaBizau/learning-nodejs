@@ -1,16 +1,29 @@
-Cheerio Test
-============
+Cheerio
+=======
 
-Clone this repository and run:
-
-```
-npm install
-```
-
-Then to make the Cheerio test run:
-
-```
+```sh
+cd cheerio
+npm i
 node main.js
 ```
 
-Thanks to [Cheerio project](https://github.com/MatthewMueller/cheerio#readme)!
+## How to use
+
+```js
+// Include cheerio
+var cheerio = require("cheerio");
+
+// Load some HTML
+var $ = cheerio.load("<body></body>");
+
+// Append a new element
+$("body").append("<span>hi</span>");
+
+// Output the final HTML
+console.log($.html());
+// => "<body><span>hi</span></body>"
+```
+
+## Resources
+
+Big thanks to the [Cheerio project](https://github.com/MatthewMueller/cheerio#readme)!
