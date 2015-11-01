@@ -1,0 +1,52 @@
+{
+  "name": "learning-nodejs-main",
+  "version": "1.0.0",
+  "description": "A example-based Node.js tutorial.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IonicaBizau/learning-nodejs.git"
+  },
+  "keywords": [
+    "nodejs",
+    "learning"
+  ],
+  "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
+  "license": "KINDLY",
+  "bugs": {
+    "url": "https://github.com/IonicaBizau/learning-nodejs/issues"
+  },
+  "homepage": "https://github.com/IonicaBizau/learning-nodejs#readme",
+  "blah": {
+      "description": [
+          "Some of the examples are not well documented, but when you need help, feel free to open issues.",
+          "Like always, contributions are more than welcome!",
+          " - [`cheerio`](/cheerio/)",
+          " - [`connect-to-websocket`](/connect-to-websocket/)",
+          " - [`data-stream`](/data-stream/)",
+          " - [`file-upload`](/file-upload/)",
+          " - [`formidable-mongodb`](/formidable-mongodb/)",
+          " - [`hello-blah`](/hello-blah/)",
+          " - [`html-to-pdf`](/html-to-pdf/)",
+          " - [`jsdom`](/jsdom/)",
+          " - [`jwt-auth`](/jwt-auth/)",
+          " - [`login-with-bitbucket`](/login-with-bitbucket/)",
+          " - [`login-with-github`](/login-with-github/)",
+          " - [`mongodb-map-reduce`](/mongodb-map-reduce/)",
+          " - [`node-login`](/node-login/)",
+          " - [`orientdb`](/orientdb/)",
+          " - [`people-information-db`](/people-information-db/)",
+          " - [`phantom`](/phantom/)",
+          " - [`post-message`](/post-message/)",
+          " - [`server-file-upload`](/server-file-upload/)",
+          " - [`streams`](/streams/)",
+          " - [`using-sockjs`](/using-sockjs/)",
+          " - [`web-sockets`](/web-sockets/)"
+      ],
+      "title": "Learning Node.js",
+      "documentation": "Documentation should be available in each project, but if it is not, feel free to ask questions using the issue tracker."
+  }
+}
