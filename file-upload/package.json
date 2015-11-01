@@ -1,5 +1,5 @@
 {
-  "name": "learning-nodejs-file-upload",
+  "name": "learning-node-file-upload",
   "version": "1.0.0",
   "description": "Learning how file uploads work in a NodeJS server.",
   "main": "index.js",
@@ -16,7 +16,7 @@
     "nodejs"
   ],
   "author": "Ionică Bizău <bizauionica@gmail.com>",
-  "license": "MIT",
+  "license": "KINDLY",
   "bugs": {
     "url": "https://github.com/IonicaBizau/learning-nodejs/issues"
   },

@@ -1,9 +1,10 @@
 {
   "name": "learning-node-cheerio-test",
   "dependencies": {
-    "cheerio": "^0.19.0"
+    "cheerio": "^0.19.0",
+    "read-utf8": "^1.0.0"
   },
-  "description": "Cheerio =======",
+  "description": "Learning how to manipulate DOM using Node.js",
   "version": "1.0.0",
   "main": "main.js",
   "devDependencies": {},
@@ -22,7 +23,7 @@
     "manipultation"
   ],
   "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
-  "license": "MIT",
+  "license": "KINDLY",
   "bugs": {
     "url": "https://github.com/IonicaBizau/learning-nodejs/issues"
   },

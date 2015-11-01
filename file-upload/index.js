@@ -4,6 +4,7 @@ var Lien = require("lien")
   , Formidable = require("formidable")
   ;
 
+// Constants
 const DIR_UPLOADS = __dirname + "/public/uploads/";
 
 // Init lien server
