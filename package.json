@@ -44,7 +44,8 @@
           " - [`server-file-upload`](/server-file-upload/)",
           " - [`streams`](/streams/)",
           " - [`using-sockjs`](/using-sockjs/)",
-          " - [`web-sockets`](/web-sockets/)"
+          " - [`web-sockets`](/web-sockets/)",
+          " - [`rename`](/rename/)"
       ],
       "title": "Learning Node.js",
       "documentation": "Documentation should be available in each project, but if it is not, feel free to ask questions using the issue tracker."

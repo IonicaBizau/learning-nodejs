@@ -24,6 +24,7 @@ Like always, contributions are more than welcome!
  - [`streams`](/streams/)
  - [`using-sockjs`](/using-sockjs/)
  - [`web-sockets`](/web-sockets/)
+ - [`rename`](/rename/)
 
 ## Installation
 
