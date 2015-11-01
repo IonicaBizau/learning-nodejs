@@ -1,5 +1,5 @@
 # Learning Node.js [![Support this project][donate-now]][paypal-donations]
-A example-based Node.js tutorial.
+An example-based Node.js tutorial.
 
 Some of the examples are not well documented, but when you need help, feel free to open issues.
 Like always, contributions are more than welcome!
