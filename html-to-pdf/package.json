@@ -5,7 +5,7 @@
     "main": "main.js",
     "author": "Ionică Bizău <bizauionica@gmail.com>",
     "dependencies": {
-       "pdfcrowd": "*"
+        "pdfcrowd": "*"
     },
     "license": "BSD"
 }
