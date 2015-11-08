@@ -1,0 +1,27 @@
+{
+  "name": "address-to-geocode",
+  "version": "0.2.0",
+  "description": "A test using node-geocode module",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/IonicaBizau/address-to-geocode.git"
+  },
+  "keywords": [
+    "geocode",
+    "node",
+    "location"
+  ],
+  "dependencies": {
+      "node-geocoder": "2.6.0"
+  },
+  "author": "jillix <contact@jillix.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IonicaBizau/address-to-geocode/issues"
+  },
+  "homepage": "https://github.com/IonicaBizau/address-to-geocode"
+}
