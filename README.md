@@ -3,6 +3,8 @@ An example-based Node.js tutorial.
 
 Some of the examples are not well documented, but when you need help, feel free to open issues.
 Like always, contributions are more than welcome!
+
+ - [`address-to-geocode`](/address-to-geocode/)
  - [`cheerio`](/cheerio/)
  - [`connect-to-websocket`](/connect-to-websocket/)
  - [`data-stream`](/data-stream/)
