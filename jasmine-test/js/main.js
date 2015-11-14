@@ -1,3 +1,5 @@
 setTimeout(function () {
-    document.body.innerHTML = "Hello Jasmine";
+    document.querySelector("#container").innerHTML = "Hello Jasmine";
 }, 1000);
+
+document.title = "Testing Jasmine1";
