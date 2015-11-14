@@ -1,8 +1,10 @@
 # Learning Node.js [![Support this project][donate-now]][paypal-donations]
+
 An example-based Node.js tutorial.
 
 Some of the examples are not well documented, but when you need help, feel free to open issues.
 Like always, contributions are more than welcome!
+ - [`address-to-geocode`](/address-to-geocode/)
  - [`cheerio`](/cheerio/)
  - [`connect-to-websocket`](/connect-to-websocket/)
  - [`data-stream`](/data-stream/)
@@ -46,7 +48,8 @@ If you are using this library in one of your projects, add it in this list. :spa
 
 [KINDLY][license] © [Ionică Bizău][website]
 
-[license]: http://ionicabizau.github.io/kindly-license/?author=Ionic%C4%83%20Biz%C4%83u%20%3Cbizauionica@gmail.com%3E&year=2015
+[license]: http://ionicabizau.github.io/kindly-license/?author=Ionic%C4%83%20Biz%C4%83u%20%3Cbizauionica@gmail.com%3E&year=2013
+
 [website]: http://ionicabizau.net
 [paypal-donations]: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=RVXDDLKKLQRJW
 [donate-now]: http://i.imgur.com/6cMbHOC.png

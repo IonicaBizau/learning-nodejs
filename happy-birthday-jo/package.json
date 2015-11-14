@@ -1,0 +1,33 @@
+{
+  "name": "happy-birthday-jo",
+  "version": "0.1.0",
+  "description": "A happy birthday application for Jo Luijten - http://www.joluijten.com/ ",
+  "main": "1.js",
+  "dependencies": {
+    "couleurs": "^0.1.2",
+    "image-to-ascii": "^0.1.1",
+    "jasciimo": "^0.6.0",
+    "overlap": "^0.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node 1.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:IonicaBizau/Happy-Birthday-Jo.git"
+  },
+  "keywords": [
+    "jo",
+    "luijten",
+    "birthday",
+    "node",
+    "terminal"
+  ],
+  "author": "Ionică Bizău <bizauionica@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IonicaBizau/Happy-Birthday-Jo/issues"
+  },
+  "homepage": "https://github.com/IonicaBizau/Happy-Birthday-Jo"
+}
