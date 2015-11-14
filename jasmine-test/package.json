@@ -1,0 +1,16 @@
+{
+  "name": "learning-nodejs-jasmine-test",
+  "version": "1.0.0",
+  "description": "Learning unit-testing using Jasmine.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "dependencies": {
+    "is-there": "^4.2.0",
+    "jasmine": "^2.3.2"
+  },
+  "devDependencies": {
+    "jasmine-spec-reporter": "^2.4.0"
+  }
+}
