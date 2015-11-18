@@ -1,0 +1,16 @@
+{
+  "name": "webview-electron",
+  "version": "1.0.0",
+  "description": "1. Installing dependencies",
+  "main": "app.js",
+  "dependencies": {
+    "electron-prebuilt": "^0.34.0",
+    "electronify": "^1.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "electron app"
+  },
+  "author": "",
+  "license": "ISC"
+}
