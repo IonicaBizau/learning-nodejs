@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>WebView Electron</title>
+<style>
+</style>
+    </head>
+    <body>
+        <webview width="800" height="600" id="myWebView" src="http://google.com"></webview>
+
+        <script>
+            // This code is run on the client
+            // To access the web view you can either use directly `myWebView` variable
+            // or to use document.getElementById
+
+
+            // This is optional since the myWebView is already a global variable
+            //var myWebView = document.getElementById("myWebView");
+
+            myWebView.addEventListener("dom-ready", function() {
+                myWebView.openDevTools();
+            });
+        </script>
+    </body>
+</html>
