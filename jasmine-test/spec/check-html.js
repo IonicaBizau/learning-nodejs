@@ -1,36 +1,31 @@
 // Dependencies
-var $ = require("jquerygo");
+const jQueryPh = require("phantom-jquery");
 
 // Constants
 const HTML_FILE = __dirname + "/../index.html";
-
-// Configs
-$.config.debug = false;
 
 describe("check the html", () => {
 
     // Initial HTML
     it("the initial container text should be \"test\"", (cb) => {
-        $.visit(HTML_FILE, () => {
+        jQueryPh.open(HTML_FILE, (err, $, page, ph) => {
+            expect(err).toBe(null);
             $("#container").text(bodyHtml => {
                 expect(bodyHtml).toBe("Test");
+                ph.exit();
                 cb();
-                $.close();
             });
         });
     });
 
     // After one second the HTML should be changed
     it("after 1sec the container text should be \"Hello Jasmine\"", (cb) => {
-        debugger
-        $.visit(HTML_FILE, () => {
-            debugger
+        jQueryPh.open(HTML_FILE, (err, $, page, ph) => {
+            expect(err).toBe(null);
             setTimeout(() => {
-                debugger
                 $("#container").html(bodyHtml => {
-                debugger
                     expect(bodyHtml).toBe("Hello Jasmine");
-                    $.close();
+                    ph.exit();
                     cb();
                 });
             }, 1000);
@@ -38,16 +33,30 @@ describe("check the html", () => {
     }, 10000);
 
     //// Test the title
-    //it("the page title should be \"Testing Jasmine\"", () => {
-    //    $.visit(HTML_FILE, () => {
-    //        $.getPage(page => {
-    //            page.evaluate(() => {
-    //                return document.title;
-    //            }, title => {
-    //                console.log(">>>>", title);
-    //                expect(title).toBe("Testing Jasmine");
-    //            });
-    //        });
-    //    });
-    //});
+    it("the page title should be \"Testing Jasmine\"", (cb) => {
+        jQueryPh.open(HTML_FILE, (err, $, page, ph) => {
+            expect(err).toBe(null);
+            page.evaluate(function () {
+                return document.title;
+            }, title => {
+                expect(title).toBe("Testing Jasmine");
+                ph.exit();
+                cb();
+            });
+        });
+    });
+
+    // Test click
+    it("should display \"You clicked!\" when clicking the button", (cb) => {
+        jQueryPh.open(HTML_FILE, (err, $, page, ph) => {
+            expect(err).toBe(null);
+            $(".click-me").click(function () {
+                $(".result").text(function (text) {
+                    expect(text).toBe("You clicked!");
+                    ph.exit();
+                    cb();
+                });
+            });
+        });
+    });
 });

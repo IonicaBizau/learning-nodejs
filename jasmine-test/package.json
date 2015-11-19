@@ -11,6 +11,7 @@
     "jasmine": "^2.3.2"
   },
   "devDependencies": {
-    "jasmine-spec-reporter": "^2.4.0"
+    "jasmine2-reporter": "^0.1.1",
+    "phantom-jquery": "^1.0.0"
   }
 }
