@@ -16,8 +16,8 @@
     "node",
     "log"
   ],
-  "author": "Ionică Bizău <bizauionica@gmail.com>",
-  "license": "KINDLY",
+  "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/IonicaBizau/testing-streams/issues"
   },
