@@ -10,6 +10,9 @@ class Foo {
 }
 
 class Bar extends Foo {
+    constructor () {
+        super();
+    }
     method (name) {
         console.log("Bar: ", name);
     }
