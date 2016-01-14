@@ -1,6 +1,6 @@
 {
   "name": "learning-nodejs-main",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "An example-based Node.js tutorial.",
   "main": "index.js",
   "scripts": {
