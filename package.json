@@ -1,6 +1,6 @@
 {
   "name": "learning-nodejs-main",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "An example-based Node.js tutorial.",
   "main": "index.js",
   "scripts": {
@@ -50,5 +50,16 @@
     ],
     "title": "Learning Node.js",
     "documentation": "Documentation should be available in each project, but if it is not, feel free to ask questions using the issue tracker."
-  }
+  },
+  "files": [
+    "bin/",
+    "app/",
+    "lib/",
+    "dist/",
+    "src/",
+    "resources/",
+    "menu/",
+    "cli.js",
+    "index.js"
+  ]
 }
