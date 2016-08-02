@@ -1,0 +1,13 @@
+{
+  "name": "showdown-test",
+  "version": "1.0.0",
+  "description": "Playing with showdown.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "showdown": "^1.4.1"
+  }
+}
