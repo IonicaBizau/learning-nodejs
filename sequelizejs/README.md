@@ -1,8 +1,8 @@
 First create the database
 
 ```sh
-mysql -uroot -p123
-mysql> create database seq_users
+mysql -uroot
+mysql> create database newdb
 ```
 
 Then do:
@@ -15,8 +15,8 @@ node index
 Then you will see a document in the database `users` table:
 
 ```sh
-mysql -uroot -p123
-mysql> use seq_users
+mysql -uroot
+mysql> use newdb
 mysql> select * from users
 ...
 ```
