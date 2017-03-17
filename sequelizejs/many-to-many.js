@@ -35,14 +35,16 @@ Mentee.belongsToMany(Question, { as: "Questions", through: MenteeQuestion });
 // And a question can be answered by several mentees
 Question.belongsToMany(Mentee, { as: "Mentees", through: MenteeQuestion });
 
+MenteeQuestion.belongsTo(Mentee);
+MenteeQuestion.belongsTo(Question);
+
 let currentQuestion = null;
-Promise.all([
-    Mentee.sync({ force: true })
-  , Question.sync({ force: true })
-  , MenteeQuestion.sync({ force: true })
-]).then(() => {
-    return Mentee.destroy({where: {}})
-}).then(() => {
+
+sequelize.Promise.mapSeries([
+    Mentee.sync()
+  , Question.sync()
+  , MenteeQuestion.sync()
+], model => model.destroy({ where: {} })).then(() => {
     return Question.destroy({ where: {} })
 }).then(() => {
     return Question.create({
@@ -56,20 +58,17 @@ Promise.all([
 }).then(mentee => {
     console.log("Adding question");
     return mentee.addQuestion(currentQuestion);
-}).then(() => {
-    return MenteeQuestion.findAll({
-        where: {}
-      , include: [Mentee]
-    })
 }).then(menteeQuestions => {
     return MenteeQuestion.findAll({
         where: {
             menteeId: 1
         }
-      , include: [Mentee]
+      , include: [Mentee, Question]
     })
-}).then(menteeQuestion => {
-    console.log(menteeQuestion.toJSON());
+}).then(menteeQuestions => {
+    menteeQuestions.forEach(menteeQuestion => {
+        console.log(menteeQuestion.toJSON());
+    })
 }).catch(e => {
     console.error(e);
 });
