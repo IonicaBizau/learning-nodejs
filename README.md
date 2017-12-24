@@ -36,7 +36,11 @@ Like always, contributions are more than welcome!
 ## :cloud: Installation
 
 ```sh
-$ npm i --save learning-nodejs-main
+# Using npm
+npm install --save learning-nodejs-main
+
+# Using yarn
+yarn add learning-nodejs-main
 ```
 
 
