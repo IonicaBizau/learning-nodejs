@@ -62,5 +62,8 @@
     "menu/",
     "cli.js",
     "index.js"
-  ]
+  ],
+  "dependencies": {
+    "text-ciphers": "^0.5.2"
+  }
 }
