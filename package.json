@@ -61,17 +61,12 @@
     "resources/",
     "menu/",
     "cli.js",
-<<<<<<< HEAD
-    "index.js"
-  ],
-  "dependencies": {
-    "text-ciphers": "^0.5.2"
-  }
-=======
     "index.js",
     "bloggify.js",
     "bloggify.json",
     "bloggify/"
-  ]
->>>>>>> 9d2083f058e98bfa5ba1a01b4bdf4b9ded703829
+  ],
+  "dependencies": {
+    "text-ciphers": "^0.5.2"
+  }
 }
