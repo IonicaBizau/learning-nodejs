@@ -1,0 +1,28 @@
+{
+  "name": "website-downloder",
+  "version": "1.0.0",
+  "description": "Download website pages creating a nice file structure. — Edit",
+  "main": "lib/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/IonicaBizau/website-downloader.git"
+  },
+  "keywords": [
+    "download",
+    "sites",
+    "file",
+    "structure"
+  ],
+  "author": "Ionică Bizău <bizauionica@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IonicaBizau/website-downloader/issues"
+  },
+  "homepage": "https://github.com/IonicaBizau/website-downloader"
+}

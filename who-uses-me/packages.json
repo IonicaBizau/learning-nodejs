@@ -1,0 +1,1189 @@
+{
+    "correlationID": "1436241240620:www-9-west.internal.npmjs.com:15402:ibsdatf5:53775",
+    "stamp": "pid=15402 6537654942f9443c635c3fec1a18e4fb9ea362b1 https://www.npmjs.com www-9-west.internal.npmjs.com ",
+    "features": {
+        "access_page": true,
+        "billing_page": true
+    },
+    "devEnv": false,
+    "canonicalURL": "https://www.npmjs.com/profile/ionicabizau/packages",
+    "count": 211,
+    "items": [{
+        "description": "A 3 unknown equation solver.",
+        "homepage": "https://github.com/IonicaBizau/3x3-equation-solver",
+        "name": "3x3-equation-solver",
+        "version": "0.0.0",
+        "dist-tags": {},
+        "versions": {},
+        "bugs": {
+            "email": null,
+            "url": "https://github.com/IonicaBizau/3x3-equation-solver/issues"
+        },
+        "access": "public"
+    }, {
+        "description": "This package name is reserved.",
+        "homepage": null,
+        "name": "aaaaa",
+        "version": "0.0.0",
+        "dist-tags": {},
+        "versions": {},
+        "access": "public"
+    }, {
+        "description": "A library to convert a path into an absolute path.",
+        "homepage": "https://github.com/IonicaBizau/node-abs",
+        "name": "abs",
+        "version": "1.0.0",
+        "dist-tags": {},
+        "versions": {},
+        "bugs": {
+            "email": null,
+            "url": "https://github.com/IonicaBizau/node-abs/issues"
+        },
+        "access": "public"
+    }, {
+        "description": "A lightweight CSV parser.",
+        "homepage": "https://github.com/jillix/a-csv",
+        "name": "a-csv",
+        "version": "2.0.0",
+        "dist-tags": {},
+        "versions": {},
+        "bugs": {
+            "email": null,
+            "url": "https://github.com/jillix/a-csv/issues"
+        },
+        "access": "public"
+    }, {
+        "description": "A test using node-geocode module",
+        "homepage": "https://github.com/IonicaBizau/address-to-geocode",
+        "name": "address-to-geocode",
+        "version": "0.2.0",
+        "dist-tags": {},
+        "versions": {},
+        "bugs": {
+            "email": null,
+            "url": "https://github.com/IonicaBizau/address-to-geocode/issues"
+        },
+        "access": "public"
+    }, {
+        "description": "Parse strings containing ANSI style characters.",
+        "homepage": "https://github.com/IonicaBizau/node-ansi-parser",
+        "name": "ansi-parser",
+        "version": "3.0.0",
+        "dist-tags": {},
+        "versions": {},
+        "bugs": {
+            "email": null,
+            "url": "https://github.com/IonicaBizau/node-ansi-parser/issues"
+        },
+        "access": "public"
+    }, {
+        "description": "#fordummies cover generator with a simple url API",
+        "homepage": "https://github.com/IonicaBizau/anything-for-dummies",
+        "name": "anything-for-dummies",
+        "version": "1.1.0",
+        "dist-tags": {},
+        "versions": {},
+        "bugs": {
+            "email": null,
+            "url": "https://github.com/IonicaBizau/anything-for-dummies/issues"
+        },
+        "access": "public"
+    }, {
+        "description": "An ARC assembler written in Node.JS.",
+        "homepage": "https://github.com/IonicaBizau/arc-assembler",
+        "name": "arc-asm",
+        "version": "4.0.0",
+        "dist-tags": {},
+        "versions": {},
+        "bugs": {
+            "email": null,
+            "url": "https://github.com/IonicaBizau/arc-assembler/issues"
+        },
+        "access": "public"
+    }, {
+        "description": "An ARC interpreter written in Node.JS.",
+        "homepage": "https://github.com/IonicaBizau/arc-assembler",
+        "name": "arc-int",
+        "version": "4.1.0",
+        "dist-tags": {},
+        "versions": {},
+        "bugs": {
+            "email": null,
+            "url": "https://github.com/IonicaBizau/arc-assembler/issues"
+        },
+        "access": "public"
+    }, {
+        "description": "Utility package for ARC assembler and interpreter.",
+        "homepage": "https://github.com/IonicaBizau/arc-assembler",
+        "name": "arc-util",
+        "version": "3.0.0",
+        "dist-tags": {},
+        "versions": {},
+        "bugs": {
+            "email": null,
+            "url": "https://github.com/IonicaBizau/arc-assembler/issues"
+        },
+        "access": "public"
+    }, {
+        "description": "Unofficial ArtStack API wrapper for NodeJS.",
+        "homepage": "https://github.com/IonicaBizau/node-artstack",
+        "name": "artstack",
+        "version": "1.0.0",
+        "dist-tags": {},
+        "versions": {},
+        "bugs": {
+            "email": null,
+            "url": "https://github.com/IonicaBizau/node-artstack/issues"
+        },
+        "access": "public"
+    }, {
+        "description": "Download artworks from your following users.",
+        "homepage": "https://github.com/IonicaBizau/artstack-downloader",
+        "name": "artstack-downloader",
+        "version": "1.2.0",
+        "dist-tags": {},
+        "versions": {},
+        "bugs": {
+            "email": null,
+            "url": "https://github.com/IonicaBizau/artstack-downloader/issues"
+        },
+        "access": "public"
+    }, {
+        "description": "Create ASCII animations in Terminal using ASCII frames.",
+        "homepage": "https://github.com/IonicaBizau/ascii-frames",
+        "name": "ascii-frames",
+        "version": "0.2.0",
+        "dist-tags": {},
+        "versions": {},
+        "bugs": {
+            "email": null,
+            "url": "https://github.com/IonicaBizau/ascii-frames/issues"
+        },
+        "access": "public"
+    }, {
+        "description": "GitHub CLI Client",
+        "homepage": null,
+        "name": "ascii-github",
+        "version": "0.0.0-alpha1",
+        "dist-tags": {},
+        "versions": {},
+        "access": "public"
+    }, {
+        "description": "A small script that downloads subject models for computer science baccalaureate exams.",
+        "homepage": "https://github.com/IonicaBizau/baccalaureate-computer-science",
+        "name": "baccalaureate-computer-science",
+        "version": "0.1.0",
+        "dist-tags": {},
+        "versions": {},
+        "bugs": {
+            "email": null,
+            "url": "https://github.com/IonicaBizau/baccalaureate-computer-science/issues"
+        },
+        "access": "public"
+    }, {
+        "description": "A daemon to email the user when the baccalaureate results are posted on the official website.",
+        "homepage": "https://github.com/IonicaBizau/bac-results",
+        "name": "bac-results",
+        "version": "0.1.0",
+        "dist-tags": {},
+        "versions": {},
+        "bugs": {
+            "email": null,
+            "url": "https://github.com/IonicaBizau/bac-results/issues"
+        },
+        "access": "public"
+    }, {
+        "description": "A list with my schoolmate results at BAC exams.",
+        "homepage": "https://github.com/IonicaBizau/bac-results-my-class",
+        "name": "bac-results-my-class",
+        "version": "0.0.0",
+        "dist-tags": {},
+        "versions": {},
+        "bugs": {
+            "email": null,
+            "url": "https://github.com/IonicaBizau/bac-results-my-class/issues"
+        },
+        "access": "public"
+    }, {
+        "description": "Like mustache, but simple, tiny and fast.",
+        "homepage": "https://github.com/IonicaBizau/node-barbe",
+        "name": "barbe",
+        "version": "2.0.0",
+        "dist-tags": {},
+        "versions": {},
+        "bugs": {
+            "email": null,
+            "url": "https://github.com/IonicaBizau/node-barbe/issues"
+        },
+        "access": "public"
+    }, {
+        "description": "This is the NodeJS bridge for BAT -- A minimalist tool for building native desktop applications using WEB technologies.",
+        "homepage": "https://github.com/IonicaBizau/bat",
+        "name": "batjs",
+        "version": "1.0.0",
+        "dist-tags": {},
+        "versions": {},
+        "bugs": {
+            "email": null,
+            "url": "https://github.com/IonicaBizau/bat/issues"
+        },
+        "access": "public"
+    }, {
+        "description": "Do things before the user leaves your web page.",
+        "homepage": "https://github.com/IonicaBizau/before-leaving-me.js",
+        "name": "before-leaving-me",
+        "version": "1.0.1",
+        "dist-tags": {},
+        "versions": {},
+        "bugs": {
+            "email": null,
+            "url": "https://github.com/IonicaBizau/before-leaving-me.js/issues"
+        },
+        "access": "public"
+    }, {
+        "description": "Bible.JS CLI client. Read the Holy Bible via the command line.",
+        "homepage": "https://github.com/BibleJS/BibleApp",
+        "name": "bible",
+        "version": "1.0.0",
+        "dist-tags": {},
+        "versions": {},
+        "bugs": {
+            "email": null,
+            "url": "https://github.com/BibleJS/BibleApp/issues"
+        },
+        "access": "public"
+    }, {
+        "description": "NodeJS wrapper for labs.bible.org API.",
+        "homepage": "https://github.com/BibleJS/bible-english",
+        "name": "bible-english",
+        "version": "0.1.0",
+        "dist-tags": {},
+        "versions": {},
+        "bugs": {
+            "email": null,
+            "url": "https://github.com/BibleJS/bible-english/issues"
+        },
+        "access": "public"
+    }, {
+        "description": "The Bible as a NPM module.",
+        "homepage": "https://github.com/BibleJS/bible.js",
+        "name": "bible.js",
+        "version": "2.0.0",
+        "dist-tags": {},
+        "versions": {},
+        "bugs": {
+            "email": null,
+            "url": "https://github.com/BibleJS/bible.js/issues"
+        },
+        "access": "public"
+    }, {
+        "description": "A parser of Bible references",
+        "homepage": "https://github.com/BibleJS/reference-parser",
+        "name": "bible-reference-parser",
+        "version": "1.0.0",
+        "dist-tags": {},
+        "versions": {},
+        "bugs": {
+            "email": null,
+            "url": "https://github.com/BibleJS/reference-parser/issues"
+        },
+        "access": "public"
+    }, {
+        "description": "Romanian Bible module",
+        "homepage": "https://github.com/BibleJS/bible-romanian",
+        "name": "bible-romanian",
+        "version": "0.1.0",
+        "dist-tags": {},
+        "versions": {},
+        "bugs": {
+            "email": null,
+            "url": "https://github.com/BibleJS/bible-romanian/issues"
+        },
+        "access": "public"
+    }, {
+        "description": "Sample configuration for Bible CLI client.",
+        "homepage": "https://github.com/BibleJS/sample-config",
+        "name": "bible-sample-config",
+        "version": "1.0.0-alpha2",
+        "dist-tags": {},
+        "versions": {},
+        "bugs": {
+            "email": null,
+            "url": "https://github.com/BibleJS/sample-config/issues"
+        },
+        "access": "public"
+    }, {
+        "description": "Demo: http://bibletext.co/",
+        "homepage": "https://github.com/BibleJS/bibletext.co",
+        "name": "bibletext.co",
+        "version": "2.3.3",
+        "dist-tags": {},
+        "versions": {},
+        "bugs": {
+            "email": null,
+            "url": "https://github.com/BibleJS/bibletext.co/issues"
+        },
+        "access": "public"
+    }, {
+        "description": "Know when a friend's birthday is coming.",
+        "homepage": "https://github.com/IonicaBizau/birthday",
+        "name": "birthday",
+        "version": "1.0.0",
+        "dist-tags": {},
+        "versions": {},
+        "bugs": {
+            "email": null,
+            "url": "https://github.com/IonicaBizau/birthday/issues"
+        },
+        "access": "public"
+    }, {
+        "description": "A command line tool to optimize the repetitive actions.",
+        "homepage": "https://github.com/IonicaBizau/node-blah",
+        "name": "blah",
+        "version": "2.0.0",
+        "dist-tags": {},
+        "versions": {},
+        "bugs": {
+            "email": null,
+            "url": "https://github.com/IonicaBizau/node-blah/issues"
+        },
+        "access": "public"
+    }, {
+        "description": "Testing the new version of blah.",
+        "homepage": null,
+        "name": "blah-test",
+        "version": "1.0.0",
+        "dist-tags": {},
+        "versions": {},
+        "access": "public"
+    }, {
+        "description": "A Node.JS based blogging platform that is designed to be fast and easy to use. It will be open sourced soon.",
+        "homepage": null,
+        "name": "bloggify",
+        "version": "0.0.0",
+        "dist-tags": {},
+        "versions": {},
+        "access": "public"
+    }, {
+        "description": "A Bloggify plugin that adds the functionality to add tags to articles.",
+        "homepage": "https://github.com/BloggifyPlugins/article-tags",
+        "name": "bloggify-article-tags",
+        "version": "2.0.0",
+        "dist-tags": {},
+        "versions": {},
+        "bugs": {
+            "email": null,
+            "url": "https://github.com/BloggifyPlugins/article-tags/issues"
+        },
+        "access": "public"
+    }, {
+        "description": "The official contact form plugin for Bloggify",
+        "homepage": "https://github.com/BloggifyPlugins/contact-form",
+        "name": "bloggify-contact-form",
+        "version": "2.0.0",
+        "dist-tags": {},
+        "versions": {},
+        "bugs": {
+            "email": null,
+            "url": "https://github.com/BloggifyPlugins/contact-form/issues"
+        },
+        "access": "public"
+    }, {
+        "description": "A Bloggify module to serve client files from plugins.",
+        "homepage": "https://github.com/BloggifyPlugins/custom-client-files",
+        "name": "bloggify-custom-client-files",
+        "version": "2.0.0",
+        "dist-tags": {},
+        "versions": {},
+        "bugs": {
+            "email": null,
+            "url": "https://github.com/BloggifyPlugins/custom-client-files/issues"
+        },
+        "access": "public"
+    }, {
+        "description": "Default theme for Bloggify",
+        "homepage": "https://github.com/BloggifyThemes/Default",
+        "name": "bloggify-default-theme",
+        "version": "1.0.0",
+        "dist-tags": {},
+        "versions": {},
+        "bugs": {
+            "email": null,
+            "url": "https://github.com/BloggifyThemes/Default/issues"
+        },
+        "access": "public"
+    }, {
+        "description": "This package name is reserved.",
+        "homepage": null,
+        "name": "bloggify-emoji",
+        "version": "0.0.0",
+        "dist-tags": {},
+        "versions": {},
+        "access": "public"
+    }, {
+        "description": "MiniLightbox plugin for Bloggify sites",
+        "homepage": "https://github.com/BloggifyPlugins/lightbox",
+        "name": "bloggify-lightbox",
+        "version": "2.0.0",
+        "dist-tags": {},
+        "versions": {},
+        "bugs": {
+            "email": null,
+            "url": "https://github.com/BloggifyPlugins/lightbox/issues"
+        },
+        "access": "public"
+    }, {
+        "description": "Yet another minimalist Bloggify theme.",
+        "homepage": "https://github.com/Bloggify/MiniTheme",
+        "name": "bloggify-mini-theme",
+        "version": "1.0.0",
+        "dist-tags": {},
+        "versions": {},
+        "bugs": {
+            "email": null,
+            "url": "https://github.com/Bloggify/MiniTheme/issues"
+        },
+        "access": "public"
+    }, {
+        "description": "A Bloggify plugin that adds the functionality to add tags to posts.",
+        "homepage": "https://github.com/BloggifyPlugins/post-tags",
+        "name": "bloggify-post-tags",
+        "version": "1.0.0",
+        "dist-tags": {},
+        "versions": {},
+        "bugs": {
+            "email": null,
+            "url": "https://github.com/BloggifyPlugins/post-tags/issues"
+        },
+        "access": "public"
+    }, {
+        "description": "The RSS plugin for Bloggify.",
+        "homepage": "https://github.com/Bloggify/rss",
+        "name": "bloggify-rss",
+        "version": "1.1.0",
+        "dist-tags": {},
+        "versions": {},
+        "bugs": {
+            "email": null,
+            "url": "https://github.com/Bloggify/rss/issues"
+        },
+        "access": "public"
+    }, {
+        "description": "A Bloggify plugin for sharing the terminal to other clients (browsers or terminals).",
+        "homepage": "https://github.com/Share-Term/server",
+        "name": "bloggify-share-term",
+        "version": "1.1.1",
+        "dist-tags": {},
+        "versions": {},
+        "bugs": {
+            "email": null,
+            "url": "https://github.com/Share-Term/server/issues"
+        },
+        "access": "public"
+    }, {
+        "description": "A Bloggify plugin for sharing articles on social networks.",
+        "homepage": "https://github.com/Bloggify/social",
+        "name": "bloggify-social",
+        "version": "1.0.0",
+        "dist-tags": {},
+        "versions": {},
+        "bugs": {
+            "email": null,
+            "url": "https://github.com/Bloggify/social/issues"
+        },
+        "access": "public"
+    }, {
+        "description": "A Bloggify starter website.",
+        "homepage": "https://github.com/Bloggify/Starter",
+        "name": "bloggify-starter-website",
+        "version": "1.0.0",
+        "dist-tags": {},
+        "versions": {},
+        "bugs": {
+            "email": null,
+            "url": "https://github.com/Bloggify/Starter/issues"
+        },
+        "access": "public"
+    }, {
+        "description": "A notification system written in NodeJS using the BAT platform.",
+        "homepage": "https://github.com/IonicaBizau/bnotify",
+        "name": "bnotify",
+        "version": "1.1.0",
+        "dist-tags": {},
+        "versions": {},
+        "bugs": {
+            "email": null,
+            "url": "https://github.com/IonicaBizau/bnotify/issues"
+        },
+        "access": "public"
+    }, {
+        "description": "A Node.JS module, which provides an object oriented wrapper for the Brightbox API.",
+        "homepage": "https://github.com/IonicaBizau/node-brightbox",
+        "name": "brightbox",
+        "version": "1.0.0",
+        "dist-tags": {},
+        "versions": {},
+        "bugs": {
+            "email": null,
+            "url": "https://github.com/IonicaBizau/node-brightbox/issues"
+        },
+        "access": "public"
+    }, {
+        "description": "A full screen terminal in your browser.",
+        "homepage": "https://github.com/IonicaBizau/browser-terminal",
+        "name": "browser-term",
+        "version": "1.0.0-alpha",
+        "dist-tags": {},
+        "versions": {},
+        "bugs": {
+            "email": null,
+            "url": "https://github.com/IonicaBizau/browser-terminal/issues"
+        },
+        "access": "public"
+    }, {
+        "description": "Simple way to log messages in stdout or other stream.",
+        "homepage": "https://github.com/IonicaBizau/node-bug-killer",
+        "name": "bug-killer",
+        "version": "4.0.0",
+        "dist-tags": {},
+        "versions": {},
+        "bugs": {
+            "email": null,
+            "url": "https://github.com/IonicaBizau/node-bug-killer/issues"
+        },
+        "access": "public"
+    }, {
+        "description": "A Minimalist and Civilized CSS framework.",
+        "homepage": "https://github.com/IonicaBizau/CaiuSS",
+        "name": "caiuss",
+        "version": "1.0.2",
+        "dist-tags": {},
+        "versions": {},
+        "bugs": {
+            "email": null,
+            "url": "https://github.com/IonicaBizau/CaiuSS/issues"
+        },
+        "access": "public"
+    }, {
+        "description": "A minimalist NodeJS module for callback buffering.",
+        "homepage": "https://github.com/jillix/node-cb-buffer",
+        "name": "cb-buffer",
+        "version": "1.0.2",
+        "dist-tags": {},
+        "versions": {},
+        "bugs": {
+            "email": null,
+            "url": "https://github.com/jillix/node-cb-buffer/issues"
+        },
+        "access": "public"
+    }, {
+        "description": "Easy way to import a library into CDNJS.",
+        "homepage": "https://github.com/IonicaBizau/cdnjs-importer",
+        "name": "cdnjs-importer",
+        "version": "1.4.1",
+        "dist-tags": {},
+        "versions": {},
+        "bugs": {
+            "email": null,
+            "url": "https://github.com/IonicaBizau/cdnjs-importer/issues"
+        },
+        "access": "public"
+    }, {
+        "description": "A library to generate ASCII boxes via NodeJS",
+        "homepage": "https://github.com/IonicaBizau/node-cli-box",
+        "name": "cli-box",
+        "version": "5.0.0",
+        "dist-tags": {},
+        "versions": {},
+        "bugs": {
+            "email": null,
+            "url": "https://github.com/IonicaBizau/node-cli-box/issues"
+        },
+        "access": "public"
+    }, {
+        "description": "Generate ASCII circles with NodeJS.",
+        "homepage": "https://github.com/IonicaBizau/node-cli-circle",
+        "name": "cli-circle",
+        "version": "2.1.0",
+        "dist-tags": {},
+        "versions": {},
+        "bugs": {
+            "email": null,
+            "url": "https://github.com/IonicaBizau/node-cli-circle/issues"
+        },
+        "access": "public"
+    }, {
+        "description": "Create CLI animations using text frames.",
+        "homepage": "https://github.com/IonicaBizau/node-cli-frames",
+        "name": "cli-frames",
+        "version": "1.0.0",
+        "dist-tags": {},
+        "versions": {},
+        "bugs": {
+            "email": null,
+            "url": "https://github.com/IonicaBizau/node-cli-frames/issues"
+        },
+        "access": "public"
+    }, {
+        "description": "A fancy GitHub client for command line.",
+        "homepage": "https://github.com/IonicaBizau/cli-github",
+        "name": "cli-github",
+        "version": "1.6.1",
+        "dist-tags": {},
+        "versions": {},
+        "bugs": {
+            "email": null,
+            "url": "https://github.com/IonicaBizau/cli-github/issues"
+        },
+        "access": "public"
+    }, {
+        "description": "Easily draw function graphs in text mode.",
+        "homepage": "https://github.com/IonicaBizau/node-cli-graph",
+        "name": "cli-graph",
+        "version": "3.0.0",
+        "dist-tags": {},
+        "versions": {},
+        "bugs": {
+            "email": null,
+            "url": "https://github.com/IonicaBizau/node-cli-graph/issues"
+        },
+        "access": "public"
+    }, {
+        "description": "Generate pie charts in terminal and text mode.",
+        "homepage": "https://github.com/IonicaBizau/cli-pie",
+        "name": "cli-pie",
+        "version": "1.1.0",
+        "dist-tags": {},
+        "versions": {},
+        "bugs": {
+            "email": null,
+            "url": "https://github.com/IonicaBizau/cli-pie/issues"
+        },
+        "access": "public"
+    }, {
+        "description": "Listen for the resize event in a friendly way.",
+        "homepage": "https://github.com/IonicaBizau/node-cli-resize",
+        "name": "cli-resize",
+        "version": "1.0.0",
+        "dist-tags": {},
+        "versions": {},
+        "bugs": {
+            "email": null,
+            "url": "https://github.com/IonicaBizau/node-cli-resize/issues"
+        },
+        "access": "public"
+    }, {
+        "description": "Snow, snow, snow! Let it snow, in terminal!",
+        "homepage": "https://github.com/IonicaBizau/cli-snow",
+        "name": "cli-snow",
+        "version": "1.1.1",
+        "dist-tags": {},
+        "versions": {},
+        "bugs": {
+            "email": null,
+            "url": "https://github.com/IonicaBizau/cli-snow/issues"
+        },
+        "access": "public"
+    }, {
+        "description": "A fancy command line tool for knowing the sunset time.",
+        "homepage": "https://github.com/IonicaBizau/cli-sunset",
+        "name": "cli-sunset",
+        "version": "2.2.0",
+        "dist-tags": {},
+        "versions": {},
+        "bugs": {
+            "email": null,
+            "url": "https://github.com/IonicaBizau/cli-sunset/issues"
+        },
+        "access": "public"
+    }, {
+        "description": "A library to update stdout output.",
+        "homepage": "https://github.com/IonicaBizau/node-cli-update",
+        "name": "cli-update",
+        "version": "1.0.0",
+        "dist-tags": {},
+        "versions": {},
+        "bugs": {
+            "email": null,
+            "url": "https://github.com/IonicaBizau/node-cli-update/issues"
+        },
+        "access": "public"
+    }, {
+        "description": "A tiny and fast command line arguments parser and help generator.",
+        "homepage": "https://github.com/IonicaBizau/node-clp",
+        "name": "clp",
+        "version": "3.0.0",
+        "dist-tags": {},
+        "versions": {},
+        "bugs": {
+            "email": null,
+            "url": "https://github.com/IonicaBizau/node-clp/issues"
+        },
+        "access": "public"
+    }, {
+        "description": "JavaScript library that overrides the console object bringing its functionality in a DOM element.",
+        "homepage": "https://github.com/IonicaBizau/console.js",
+        "name": "consolejs",
+        "version": "1.0.0",
+        "dist-tags": {},
+        "versions": {},
+        "bugs": {
+            "email": null,
+            "url": "https://github.com/IonicaBizau/console.js/issues"
+        },
+        "access": "public"
+    }, {
+        "description": "Add some color and styles to your Node.JS strings.",
+        "homepage": "https://github.com/IonicaBizau/couleurs",
+        "name": "couleurs",
+        "version": "5.0.0",
+        "dist-tags": {},
+        "versions": {},
+        "bugs": {
+            "email": null,
+            "url": "https://github.com/IonicaBizau/couleurs/issues"
+        },
+        "access": "public"
+    }, {
+        "description": "A library for converting CSV files to JSON arrays.",
+        "homepage": "https://github.com/jillix/csv-to-array",
+        "name": "csv-to-array",
+        "version": "1.0.1",
+        "dist-tags": {},
+        "versions": {},
+        "bugs": {
+            "email": null,
+            "url": "https://github.com/jillix/csv-to-array/issues"
+        },
+        "access": "public"
+    }, {
+        "description": "Ignore or not the CTRL + C keypress in a NodeJS process.",
+        "homepage": "https://github.com/IonicaBizau/node-ctrl-c",
+        "name": "ctrl-c",
+        "version": "1.1.0",
+        "dist-tags": {},
+        "versions": {},
+        "bugs": {
+            "email": null,
+            "url": "https://github.com/IonicaBizau/node-ctrl-c/issues"
+        },
+        "access": "public"
+    }, {
+        "description": "Small and fast library to set default values.",
+        "homepage": "https://github.com/IonicaBizau/node-deffy",
+        "name": "deffy",
+        "version": "2.0.0",
+        "dist-tags": {},
+        "versions": {},
+        "bugs": {
+            "email": null,
+            "url": "https://github.com/IonicaBizau/node-deffy/issues"
+        },
+        "access": "public"
+    }, {
+        "description": "Daemonize the things out.",
+        "homepage": "https://github.com/IonicaBizau/node-diable",
+        "name": "diable",
+        "version": "1.4.0",
+        "dist-tags": {},
+        "versions": {},
+        "bugs": {
+            "email": null,
+            "url": "https://github.com/IonicaBizau/node-diable/issues"
+        },
+        "access": "public"
+    }, {
+        "description": "ACE editor module for Engine.",
+        "homepage": "https://github.com/jillix/editor",
+        "name": "engine-editor",
+        "version": "1.0.4",
+        "dist-tags": {},
+        "versions": {},
+        "bugs": {
+            "email": null,
+            "url": "https://github.com/jillix/editor/issues"
+        },
+        "access": "public"
+    }, {
+        "description": "Dropzone port for Engine.",
+        "homepage": "https://github.com/jillix/engine-file-uploader",
+        "name": "engine-file-uploader",
+        "version": "1.0.0",
+        "dist-tags": {},
+        "versions": {},
+        "bugs": {
+            "email": null,
+            "url": "https://github.com/jillix/engine-file-uploader/issues"
+        },
+        "access": "public"
+    }, {
+        "description": "Form module for Engine.",
+        "homepage": "https://github.com/jillix/engine-form",
+        "name": "engine-form",
+        "version": "1.0.0",
+        "dist-tags": {},
+        "versions": {},
+        "bugs": {
+            "email": null,
+            "url": "https://github.com/jillix/engine-form/issues"
+        },
+        "access": "public"
+    }, {
+        "description": "Call jQuery methods using Engine.",
+        "homepage": "https://github.com/jillix/engine-jq",
+        "name": "engine-jq",
+        "version": "0.1.0",
+        "dist-tags": {},
+        "versions": {},
+        "bugs": {
+            "email": null,
+            "url": "https://github.com/jillix/engine-jq/issues"
+        },
+        "access": "public"
+    }, {
+        "description": "Tiny keypress module for Engine.",
+        "homepage": "https://github.com/jillix/engine-keypress",
+        "name": "engine-keypress",
+        "version": "1.0.1",
+        "dist-tags": {},
+        "versions": {},
+        "bugs": {
+            "email": null,
+            "url": "https://github.com/jillix/engine-keypress/issues"
+        },
+        "access": "public"
+    }, {
+        "description": "Generate data lists via Engine.",
+        "homepage": "https://github.com/jillix/engine-list",
+        "name": "engine-list",
+        "version": "1.0.0",
+        "dist-tags": {},
+        "versions": {},
+        "bugs": {
+            "email": null,
+            "url": "https://github.com/jillix/engine-list/issues"
+        },
+        "access": "public"
+    }, {
+        "description": "MongoDB adapter for Engine.",
+        "homepage": "https://github.com/jillix/engine-mongodb",
+        "name": "engine-mongodb",
+        "version": "1.0.0",
+        "dist-tags": {},
+        "versions": {},
+        "bugs": {
+            "email": null,
+            "url": "https://github.com/jillix/engine-mongodb/issues"
+        },
+        "access": "public"
+    }, {
+        "description": "PNotify port for Engine.",
+        "homepage": "https://github.com/jillix/engine-notifications",
+        "name": "engine-notifications",
+        "version": "0.1.0",
+        "dist-tags": {},
+        "versions": {},
+        "bugs": {
+            "email": null,
+            "url": "https://github.com/jillix/engine-notifications/issues"
+        },
+        "access": "public"
+    }, {
+        "description": "Piklor.js version for Engine.",
+        "homepage": "https://github.com/jillix/engine-piklor",
+        "name": "engine-piklor",
+        "version": "1.0.0",
+        "dist-tags": {},
+        "versions": {},
+        "bugs": {
+            "email": null,
+            "url": "https://github.com/jillix/engine-piklor/issues"
+        },
+        "access": "public"
+    }, {
+        "description": "jQuery.sidebar.js implementation for Engine.",
+        "homepage": "https://github.com/jillix/engine-sidebar",
+        "name": "engine-sidebar",
+        "version": "1.1.0",
+        "dist-tags": {},
+        "versions": {},
+        "bugs": {
+            "email": null,
+            "url": "https://github.com/jillix/engine-sidebar/issues"
+        },
+        "access": "public"
+    }, {
+        "description": "The web term version for Engine",
+        "homepage": "https://github.com/jillix/engine-terminal",
+        "name": "engine-terminal",
+        "version": "0.1.1",
+        "dist-tags": {},
+        "versions": {},
+        "bugs": {
+            "email": null,
+            "url": "https://github.com/jillix/engine-terminal/issues"
+        },
+        "access": "public"
+    }, {
+        "description": "Engine Tools library and CLI app.",
+        "homepage": "https://github.com/jillix/engine-tools",
+        "name": "engine-tools",
+        "version": "1.12.0",
+        "dist-tags": {},
+        "versions": {},
+        "bugs": {
+            "email": null,
+            "url": "https://github.com/jillix/editor.git engine-editor/issues"
+        },
+        "access": "public"
+    }, {
+        "description": "Tree module for Engine.",
+        "homepage": "https://github.com/jillix/engine-tree",
+        "name": "engine-tree",
+        "version": "1.0.0",
+        "dist-tags": {},
+        "versions": {},
+        "bugs": {
+            "email": null,
+            "url": "https://github.com/jillix/engine-tree/issues"
+        },
+        "access": "public"
+    }, {
+        "description": "Limit the shell execution commands to <x> calls same time.",
+        "homepage": "https://github.com/IonicaBizau/node-exec-limiter",
+        "name": "exec-limiter",
+        "version": "2.0.0",
+        "dist-tags": {},
+        "versions": {},
+        "bugs": {
+            "email": null,
+            "url": "https://github.com/IonicaBizau/node-exec-limiter/issues"
+        },
+        "access": "public"
+    }, {
+        "description": "Find the nearest flat color for a RGB/Hex input.",
+        "homepage": "https://github.com/IonicaBizau/node-flat-colors",
+        "name": "flatcolors",
+        "version": "3.0.0",
+        "dist-tags": {},
+        "versions": {},
+        "bugs": {
+            "email": null,
+            "url": "https://github.com/IonicaBizau/node-flat-colors/issues"
+        },
+        "access": "public"
+    }, {
+        "description": "Find the nearest flat color for a RGB/Hex input.",
+        "homepage": "https://github.com/IonicaBizau/node-flat-colors",
+        "name": "flat-colors",
+        "version": "3.0.0",
+        "dist-tags": {},
+        "versions": {},
+        "bugs": {
+            "email": null,
+            "url": "https://github.com/IonicaBizau/node-flat-colors/issues"
+        },
+        "access": "public"
+    }, {
+        "description": "An experiment for converting images in flat equivalents.",
+        "homepage": "https://github.com/IonicaBizau/node-flattenize",
+        "name": "flattenize",
+        "version": "0.1.0",
+        "dist-tags": {},
+        "versions": {},
+        "bugs": {
+            "email": null,
+            "url": "https://github.com/IonicaBizau/node-flattenize/issues"
+        },
+        "access": "public"
+    }, {
+        "description": "Easily draw function graphs via NodeJS in Terminal.",
+        "homepage": "https://github.com/IonicaBizau/function-graphs",
+        "name": "function-graph",
+        "version": "0.1.2",
+        "dist-tags": {},
+        "versions": {},
+        "bugs": {
+            "email": null,
+            "url": "https://github.com/IonicaBizau/function-graphs/issues"
+        },
+        "access": "public"
+    }, {
+        "description": "Watch files for changes.",
+        "homepage": "https://github.com/IonicaBizau/node-fwatcher",
+        "name": "fwatcher",
+        "version": "2.0.0",
+        "dist-tags": {},
+        "versions": {},
+        "bugs": {
+            "email": null,
+            "url": "https://github.com/IonicaBizau/node-fwatcher/issues"
+        },
+        "access": "public"
+    }, {
+        "description": "Watch files for changes.",
+        "homepage": "https://github.com/IonicaBizau/node-fwatcher",
+        "name": "f-watcher",
+        "version": "1.0.0",
+        "dist-tags": {},
+        "versions": {},
+        "bugs": {
+            "email": null,
+            "url": "https://github.com/IonicaBizau/node-fwatcher/issues"
+        },
+        "access": "public"
+    }, {
+        "description": "See the GitHub contributions calendar of a user in the command line.",
+        "homepage": "https://github.com/IonicaBizau/ghcal",
+        "name": "ghcal",
+        "version": "1.2.0",
+        "dist-tags": {},
+        "versions": {},
+        "bugs": {
+            "email": null,
+            "url": "https://github.com/IonicaBizau/ghcal/issues"
+        },
+        "access": "public"
+    }, {
+        "description": "A tool that generates a repository which being pushed into your GitHub account creates a nice contributions calendar.",
+        "homepage": "https://github.com/IonicaBizau/github-contributions",
+        "name": "gh-contributions",
+        "version": "1.1.1",
+        "dist-tags": {},
+        "versions": {},
+        "bugs": {
+            "email": null,
+            "url": "https://github.com/IonicaBizau/github-contributions/issues"
+        },
+        "access": "public"
+    }, {
+        "description": "Tiny GitHub API wrapper for server and client.",
+        "homepage": "https://github.com/IonicaBizau/gh.js",
+        "name": "gh.js",
+        "version": "1.2.0",
+        "dist-tags": {},
+        "versions": {},
+        "bugs": {
+            "email": null,
+            "url": "https://github.com/IonicaBizau/gh.js/issues"
+        },
+        "access": "public"
+    }, {
+        "description": "Get language stats about GitHub users and repositories.",
+        "homepage": "https://github.com/IonicaBizau/github-contributions",
+        "name": "gh-polyglot",
+        "version": "1.1.0",
+        "dist-tags": {},
+        "versions": {},
+        "bugs": {
+            "email": null,
+            "url": "https://github.com/IonicaBizau/github-contributions/issues"
+        },
+        "access": "public"
+    }, {
+        "description": "This package name is reserved.",
+        "homepage": null,
+        "name": "gh-pr",
+        "version": "0.0.0",
+        "dist-tags": {},
+        "versions": {},
+        "access": "public"
+    }, {
+        "description": "Open in a new tab the clicked branch on a pull request page.",
+        "homepage": "https://github.com/IonicaBizau/github-pr-branch-links",
+        "name": "gihtub-pr-branch-links",
+        "version": "1.0.2",
+        "dist-tags": {},
+        "versions": {},
+        "bugs": {
+            "email": null,
+            "url": "https://github.com/IonicaBizau/github-pr-branch-links/issues"
+        },
+        "access": "public"
+    }, {
+        "description": "GitHub color and file extensions mapping",
+        "homepage": "https://github.com/IonicaBizau/github-colors",
+        "name": "github-colors",
+        "version": "1.0.0",
+        "dist-tags": {},
+        "versions": {},
+        "bugs": {
+            "email": null,
+            "url": "https://github.com/IonicaBizau/github-colors/issues"
+        },
+        "access": "public"
+    }, {
+        "description": "Brings the old header links back.",
+        "homepage": "https://github.com/IonicaBizau/github-old-header",
+        "name": "github-old-header",
+        "version": "2.1.0",
+        "dist-tags": {},
+        "versions": {},
+        "bugs": {
+            "email": null,
+            "url": "https://github.com/IonicaBizau/github-old-header/issues"
+        },
+        "access": "public"
+    }, {
+        "description": "A JavaScript library for fetching and rendering in HTML the members of a GitHub organization.",
+        "homepage": "https://github.com/IonicaBizau/github-org-members.js",
+        "name": "github-org-members.js",
+        "version": "1.0.0",
+        "dist-tags": {},
+        "versions": {},
+        "bugs": {
+            "email": null,
+            "url": "https://github.com/IonicaBizau/github-org-members.js/issues"
+        },
+        "access": "public"
+    }, {
+        "description": "Create a nice pie chart with the user's programming languages from their GitHub profile.",
+        "homepage": "https://github.com/IonicaBizau/github-profile-languages",
+        "name": "github-profile-languages",
+        "version": "2.0.0",
+        "dist-tags": {},
+        "versions": {},
+        "bugs": {
+            "email": null,
+            "url": "https://github.com/IonicaBizau/github-profile-languages/issues"
+        },
+        "access": "public"
+    }, {
+        "description": "Git issues extension to list issues of a Git project",
+        "homepage": "https://github.com/softwarescales/git-issues",
+        "name": "git-issues",
+        "version": "1.0.0",
+        "dist-tags": {},
+        "versions": {},
+        "bugs": {
+            "email": null,
+            "url": "https://github.com/softwarescales/git-issues/issues"
+        },
+        "access": "public"
+    }, {
+        "description": "Git issues extension to list issues of a Git project",
+        "homepage": "https://github.com/softwarescales/git-issues",
+        "name": "git-issues1",
+        "version": "0.5.1-4",
+        "dist-tags": {},
+        "versions": {},
+        "bugs": {
+            "email": null,
+            "url": "https://github.com/softwarescales/git-issues/issues"
+        },
+        "access": "public"
+    }, {
+        "description": "A GitHub-like contributions calendar, but locally, with all your git commits.",
+        "homepage": "https://github.com/IonicaBizau/git-stats",
+        "name": "git-stats",
+        "version": "1.6.0",
+        "dist-tags": {},
+        "versions": {},
+        "bugs": {
+            "email": null,
+            "url": "https://github.com/IonicaBizau/git-stats/issues"
+        },
+        "access": "public"
+    }],
+    "hasMore": true
+}

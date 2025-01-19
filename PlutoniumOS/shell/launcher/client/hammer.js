@@ -1,0 +1,1 @@
+Hammer = require("hammerjs")

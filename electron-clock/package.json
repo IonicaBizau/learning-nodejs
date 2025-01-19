@@ -1,0 +1,23 @@
+{
+  "name": "electron-clock",
+  "description": "A nice clock for your desktop.",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "scripts": {
+    "start": "electron app --enable-transparent-visuals --disable-gpu"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "electron-prebuilt": "^0.36.10",
+    "electronify": "^1.3.1"
+  },
+  "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/IonicaBizau/launcher.git"
+  },
+  "bugs": {
+    "url": "https://github.com/IonicaBizau/launcher/issues"
+  },
+  "homepage": "https://github.com/IonicaBizau/launcher#readme"
+}

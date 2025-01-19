@@ -1,0 +1,7 @@
+<?xml version="1.0" standalone="no" ?>
+<!DOCTYPE project PUBLIC "-//audacityproject-1.3.0//DTD//EN" "http://audacity.sourceforge.net/xml/audacityproject-1.3.0.dtd" >
+<project xmlns="http://audacity.sourceforge.net/xml/" projname="foo_data" version="1.3.0" audacityversion="2.0.6" sel0="0.0000000000" sel1="0.0000000000" vpos="0" h="28.0533772110" zoom="86.1328125000" rate="44000.0" snapto="off" selectionformat="hh:mm:ss + milliseconds">
+	<tags>
+		<tag name="Comment" value="Processed by SoX"/>
+	</tags>
+</project>

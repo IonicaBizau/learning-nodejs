@@ -1,0 +1,40 @@
+div.ml_box {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: rgba(255, 255, 255, 1);
+    text-align: center;
+    z-index: 9999;
+}
+
+div.ml_box img {
+    max-width: 90%;
+    max-height: 90%;
+    vertical-align: middle;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    cursor: zoom-out;
+    cursor: -webkit-zoom-out;
+    border-radius: 4px;
+    border: 2px solid #D7D7D7;
+    background: rgba(255, 255, 255, 0.88);
+    box-shadow: 0 0 30px rgba(148, 148, 148, 1);
+    padding: 3px;
+}
+
+div.ml_box .animated,
+div.ml_box.animated {
+    -webkit-animation-duration: 0.5s;
+    animation-duration: 0.5s;
+}
+
+.content img {
+    cursor: -webkit-zoom-in;
+    cursor: zoom-in;
+}

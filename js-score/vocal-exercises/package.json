@@ -1,0 +1,27 @@
+{
+  "name": "vocal-exercises",
+  "version": "1.0.1",
+  "description": "Some scripts for vocal exercises",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:IonicaBizau/vocal-exercises.git"
+  },
+  "keywords": [
+    "vocal",
+    "exercises",
+    "baudio"
+  ],
+  "dependencies": {
+      "baudio": "2.1.2"
+  },
+  "author": "Ionică Bizău <bizauionica@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IonicaBizau/vocal-exercises/issues"
+  },
+  "homepage": "https://github.com/IonicaBizau/vocal-exercises"
+}

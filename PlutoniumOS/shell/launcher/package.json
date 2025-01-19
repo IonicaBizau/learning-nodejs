@@ -1,0 +1,14 @@
+{
+  "name": "launcher",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron app --enable-transparent-visuals --disable-gpu"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "plutonium-core": "ssh://IonicaBizau@bitbucket.org:IonicaBizau/plutonium-core.git"
+  }
+}

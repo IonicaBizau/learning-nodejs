@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title></title>
+        <link href='https://fonts.googleapis.com/css?family=Raleway:100' rel='stylesheet' type='text/css'>
+        <style>
+            body {
+                font-family: 'Raleway', sans-serif;
+            }
+            p#clock {
+                font-size: 8em;
+                text-shadow: 2px 4px 0px rgba(0, 0, 0, 0.36);
+                margin: 0;
+                padding: 0;
+                color: white;
+            }
+        </style>
+    </head>
+    <body>
+        <p id="clock"></p>
+        <script>
+            function getDateTime() {
+                var date = new Date();
+
+                var hour = date.getHours();
+                hour = (hour < 10 ? "0" : "") + hour;
+
+                var min  = date.getMinutes();
+                min = (min < 10 ? "0" : "") + min;
+
+                var sec  = date.getSeconds();
+                sec = (sec < 10 ? "0" : "") + sec;
+
+                return hour + ":" + min + ", " + sec;
+            }
+
+            setInterval(() => {
+                clock.innerHTML = getDateTime();
+            }, 1000);
+        </script>
+    </body>
+</html>

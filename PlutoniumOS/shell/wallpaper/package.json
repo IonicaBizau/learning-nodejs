@@ -1,0 +1,14 @@
+{
+  "name": "electron-os",
+  "description": "An operating-system for the 21st century.",
+  "version": "1.0.0",
+  "devDependencies": {
+    "electron-prebuilt": "^0.31.2",
+    "electron-rebuild": "^1.0.0",
+    "screenres": "ionicabizaukitchen/screenres",
+    "plutonium-core": "ssh://IonicaBizau@bitbucket.org:IonicaBizau/plutonium-core.git"
+  },
+  "scripts": {
+    "start": "electron app"
+  }
+}

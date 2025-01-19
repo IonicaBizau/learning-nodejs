@@ -1,0 +1,30 @@
+{
+  "name": "plutonium-core",
+  "version": "1.0.0",
+  "description": "The core module of the PlutoniumOS",
+  "main": "lib/index.js",
+  "directories": {
+    "example": "example"
+  },
+  "dependencies": {
+    "screenres": "^2.0.3-rc1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/plutonium-os/plutonium-core.git"
+  },
+  "keywords": [
+    "core",
+    "plutonium"
+  ],
+  "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
+  "license": "KINDLY",
+  "bugs": {
+    "url": "https://github.com/plutonium-os/plutonium-core/issues"
+  },
+  "homepage": "https://github.com/plutonium-os/plutonium-core#readme"
+}

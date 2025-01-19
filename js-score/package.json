@@ -1,0 +1,32 @@
+{
+  "name": "js-score",
+  "version": "1.0.0",
+  "description": "High-level library for creating music with JavaScript.",
+  "main": "lib/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "baudio": "^2.1.2",
+    "ul": "^2.1.0",
+    "music-notes": "^1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:IonicaBizau/js-score.git"
+  },
+  "keywords": [
+    "score",
+    "js"
+  ],
+  "author": "Ionică Bizău <bizauionica@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IonicaBizau/js-score/issues"
+  },
+  "homepage": "https://github.com/IonicaBizau/js-score"
+}
